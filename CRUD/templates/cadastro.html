@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">  
+        <title>Página de Cadastro</title>
+    </head>
+    <body bgcolor="black">
+		<center>
+		<font color="yellow">
+        <h1>Página de Cadastro</h1>
+        <hr>
+        <form action={{ url_for("cadastro")}} method="POST">
+            <table>
+                <tr>
+                    <td>Nome</td>
+                    <td><input type="text" name="nome"></td>
+                </tr>
+                <tr>
+                    <td>Marca</td>
+                    <td><input type="text" name="marca"></td>
+                </tr>
+                <tr>
+                    <td>Quantidade</td>
+                    <td><input type="text" name="quantidade"></td>
+                </tr>
+                <tr>
+                    <td>Data de Entrada</td>
+                    <td><input type="text" name="dataEntrada"></td>
+                </tr>
+                <tr>
+                    <td>Data de Saída</td>
+                    <td><input type="text" name="dataSaida"></td>
+                </tr>
+                <tr>
+                    <td>Observação</td>
+                    <td><input type="text" name="observacao"></td>
+                </tr>
+            </table>
+            <br>
+            <input type="submit" value="Cadastrar">
+        </form>
+		<br>
+            <a href="/index"><font color="yellow">Voltar</font></a>
+		</font>
+		</center>
+    </body>
+<html>

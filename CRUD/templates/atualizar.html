@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Atualizar</title>
+    </head>
+    <body bgcolor="black">
+		<center>
+		<font color="yellow">
+        <h1>Atualizar</h1>
+        <hr>
+        <form action="" method="POST">
+            <table>
+                <tr>
+                    <td>Nome</td>
+                    <td><input type="text" name="nome" value="{{pessoa.nome}}"></td>
+                </tr>
+                <tr>
+                    <td>Marca</td>
+                    <td><input type="text" name="marca" value="{{pessoa.marca}}"></td>
+                </tr>
+                <tr>
+                    <td>Quantidade</td>
+                    <td><input type="text" name="quantidade" value="{{pessoa.quantidade}}"></td>
+                </tr>
+                <tr>
+                    <td>DataEntrada</td>
+                    <td><input type="text" name="dataEntrada" value="{{pessoa.dataEntrada}}"></td>
+                </tr>
+                <tr>
+                    <td>DataSaida</td>
+                    <td><input type="text" name="dataSaida" value="{{pessoa.dataSaida}}"></td>
+                </tr>
+                <tr>
+                    <td>Observacao</td>
+                    <td><input type="text" name="observacao" value="{{pessoa.observacao}}"></td>
+                </tr>
+            </table><br>
+            <input type="submit" value="Atualizar Dados">
+        </form>
+		<br>
+        <a href="/index"><font color="yellow">Voltar</font></a>
+		</font>
+		</center>
+    </body>
+<html>
